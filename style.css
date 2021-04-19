@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: "Arial", sans-serif;
     
 }
 
@@ -12,38 +13,28 @@ body {
     background-color:#DFE2E7;
     border-radius: 10px;
     justify-content: space-evenly;
-    
-
-    
 }
 
-.hanka, .jana, .marketa, .monika {
+.contact {
     background-color: white;
     border-radius: 10px;
-    width: 22%;
+    flex-basis: 22%;
     padding: 2rem;
-    margin: 2rem;
+    margin: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
- 
-    
 }
-
-
 
 h1 {
     font-family: sans-serif;
     font-weight: bold;
-
 }
 
 p {
     text-align: center;
-    font-family: "Arial", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h2 {
@@ -53,21 +44,17 @@ h2 {
 }
 
 
-.foto-hanka img, .foto-jana img, .foto-marketa img, .foto-monika img {
+.contact img {
     border-radius: 50%;
 
 }   
 
-.ikony-hanka, .ikony-jana, .ikony-marketa, .ikony-monika {
+.icons {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
 }
 
-.linkedin-hanka, .github-hanka, .twitter-hanka,
-.linkedin-jana, .github-jana, .twitter-jana,
-.linkedin-marketa, .github-marketa, .twitter-marketa,
-.linkedin-monika, .github-monika, .twitter-monika {
+.icons img {
     margin: 0.5rem;
 }
 
